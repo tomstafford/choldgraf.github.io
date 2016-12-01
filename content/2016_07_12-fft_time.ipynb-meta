@@ -1,0 +1,7 @@
+Title: The beauty of computational efficiency: The Fast Fourier Transform.
+Slug: fast-fourier-transform-efficiency
+Date: 2016-07-02 10:00
+Category: computation
+Tags: python, programming, computation, efficiency, fft
+Author: Chris Holdgraf
+Summary: A quick investigation of why the FFT is so fast.
