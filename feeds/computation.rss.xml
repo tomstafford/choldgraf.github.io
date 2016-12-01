@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Predictably Noisy</title><link>http://predictablynoisy.com/</link><description>Data Science | Open Science | Brains</description><lastBuildDate>Fri, 08 Jul 2016 10:00:00 -0700</lastBuildDate><item><title>Could Brexit have happened by chance?</title><link>http://predictablynoisy.com/brexit-voting-randomness.html</link><description>&lt;style type="text/css"&gt;/*!
+<rss version="2.0"><channel><title>Predictably Noisy</title><link>http://choldgraf.github.io/</link><description>Data Science | Open Science | Brains</description><lastBuildDate>Fri, 08 Jul 2016 10:00:00 -0700</lastBuildDate><item><title>Could Brexit have happened by chance?</title><link>http://choldgraf.github.io/brexit-voting-randomness.html</link><description>&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -2389,7 +2389,7 @@ RGKgIEtEREQkBgqyRERERGLw/wFhdZiyaFWrOAAAAABJRU5ErkJggg==
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Chris Holdgraf</dc:creator><pubDate>Fri, 08 Jul 2016 10:00:00 -0700</pubDate><guid isPermaLink="false">tag:predictablynoisy.com,2016-07-08:brexit-voting-randomness.html</guid><category>python</category><category>voting</category><category>statistics</category><category>computation</category><category>fft</category></item><item><title>The beauty of computational efficiency: The Fast Fourier Transform.</title><link>http://predictablynoisy.com/fast-fourier-transform-efficiency.html</link><description>&lt;style type="text/css"&gt;/*!
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Chris Holdgraf</dc:creator><pubDate>Fri, 08 Jul 2016 10:00:00 -0700</pubDate><guid isPermaLink="false">tag:choldgraf.github.io,2016-07-08:brexit-voting-randomness.html</guid><category>python</category><category>voting</category><category>statistics</category><category>computation</category><category>fft</category></item><item><title>The beauty of computational efficiency: The Fast Fourier Transform.</title><link>http://choldgraf.github.io/fast-fourier-transform-efficiency.html</link><description>&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -10837,7 +10837,7 @@ ZaUCTEVRFEVRFGVZ/X/F6OtKadyfZQAAAABJRU5ErkJggg==
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Chris Holdgraf</dc:creator><pubDate>Sat, 02 Jul 2016 10:00:00 -0700</pubDate><guid isPermaLink="false">tag:predictablynoisy.com,2016-07-02:fast-fourier-transform-efficiency.html</guid><category>python</category><category>programming</category><category>computation</category><category>efficiency</category><category>fft</category></item><item><title>NIH grant analysis</title><link>http://predictablynoisy.com/nih-grant-analysis.html</link><description>&lt;style type="text/css"&gt;/*!
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Chris Holdgraf</dc:creator><pubDate>Sat, 02 Jul 2016 10:00:00 -0700</pubDate><guid isPermaLink="false">tag:choldgraf.github.io,2016-07-02:fast-fourier-transform-efficiency.html</guid><category>python</category><category>programming</category><category>computation</category><category>efficiency</category><category>fft</category></item><item><title>NIH grant analysis</title><link>http://choldgraf.github.io/nih-grant-analysis.html</link><description>&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -23356,7 +23356,7 @@ AElFTkSuQmCC
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Chris Holdgraf</dc:creator><pubDate>Thu, 29 Oct 2015 10:00:00 -0700</pubDate><guid isPermaLink="false">tag:predictablynoisy.com,2015-10-29:nih-grant-analysis.html</guid><category>python</category><category>statistics</category><category>visualization</category><category>grants</category></item><item><title>Craigslist data analysis</title><link>http://predictablynoisy.com/craigslist-data-analysis.html</link><description>&lt;style type="text/css"&gt;/*!
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Chris Holdgraf</dc:creator><pubDate>Thu, 29 Oct 2015 10:00:00 -0700</pubDate><guid isPermaLink="false">tag:choldgraf.github.io,2015-10-29:nih-grant-analysis.html</guid><category>python</category><category>statistics</category><category>visualization</category><category>grants</category></item><item><title>Craigslist data analysis</title><link>http://choldgraf.github.io/craigslist-data-analysis.html</link><description>&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -30840,4 +30840,4 @@ BhERKcbQICIixRgaRESkGEODiIgUY2gQEZFi/we6DTgR8I0lIAAAAABJRU5ErkJggg==
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Chris Holdgraf</dc:creator><pubDate>Sun, 27 Sep 2015 10:00:00 -0700</pubDate><guid isPermaLink="false">tag:predictablynoisy.com,2015-09-27:craigslist-data-analysis.html</guid><category>python</category><category>scraping</category><category>data analysis</category><category>visualization</category></item></channel></rss>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Chris Holdgraf</dc:creator><pubDate>Sun, 27 Sep 2015 10:00:00 -0700</pubDate><guid isPermaLink="false">tag:choldgraf.github.io,2015-09-27:craigslist-data-analysis.html</guid><category>python</category><category>scraping</category><category>data analysis</category><category>visualization</category></item></channel></rss>

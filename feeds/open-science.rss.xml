@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Predictably Noisy</title><link>http://predictablynoisy.com/</link><description>Data Science | Open Science | Brains</description><lastBuildDate>Tue, 01 Nov 2016 10:00:00 -0700</lastBuildDate><item><title>5 things I learned at SciPy</title><link>http://predictablynoisy.com/five-things-I-learned-scipy.html</link><description>&lt;style type="text/css"&gt;/*!
+<rss version="2.0"><channel><title>Predictably Noisy</title><link>http://choldgraf.github.io/</link><description>Data Science | Open Science | Brains</description><lastBuildDate>Tue, 01 Nov 2016 10:00:00 -0700</lastBuildDate><item><title>5 things I learned at SciPy</title><link>http://choldgraf.github.io/five-things-I-learned-scipy.html</link><description>&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -1019,4 +1019,4 @@ h6:hover .anchor-link {
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Chris Holdgraf</dc:creator><pubDate>Tue, 01 Nov 2016 10:00:00 -0700</pubDate><guid isPermaLink="false">tag:predictablynoisy.com,2016-11-01:five-things-I-learned-scipy.html</guid><category>python</category><category>open science</category><category>programming</category><category>conferences</category></item></channel></rss>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Chris Holdgraf</dc:creator><pubDate>Tue, 01 Nov 2016 10:00:00 -0700</pubDate><guid isPermaLink="false">tag:choldgraf.github.io,2016-11-01:five-things-I-learned-scipy.html</guid><category>python</category><category>open science</category><category>programming</category><category>conferences</category></item></channel></rss>
