@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Predictably Noisy</title><link>http://choldgraf.github.io/</link><description>Data Science | Open Science | Brains</description><lastBuildDate>Wed, 27 May 2015 10:00:00 -0700</lastBuildDate><item><title>Coherence correlation</title><link>http://choldgraf.github.io/coherence-correlation-comparison.html</link><description>&lt;style type="text/css"&gt;/*!
+<rss version="2.0"><channel><title>Predictably Noisy</title><link>http://predictablynoisy.com/</link><description>Data Science | Open Science | Brains</description><lastBuildDate>Wed, 27 May 2015 10:00:00 -0700</lastBuildDate><item><title>Coherence correlation</title><link>http://predictablynoisy.com/coherence-correlation-comparison.html</link><description>&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -13631,4 +13631,4 @@ au4fluWg9FMcK3IAAAAASUVORK5CYII=
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Chris Holdgraf</dc:creator><pubDate>Wed, 27 May 2015 10:00:00 -0700</pubDate><guid isPermaLink="false">tag:choldgraf.github.io,2015-05-27:coherence-correlation-comparison.html</guid><category>python</category><category>programming</category><category>timeseries</category><category>correlation</category></item></channel></rss>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Chris Holdgraf</dc:creator><pubDate>Wed, 27 May 2015 10:00:00 -0700</pubDate><guid isPermaLink="false">tag:predictablynoisy.com,2015-05-27:coherence-correlation-comparison.html</guid><category>python</category><category>programming</category><category>timeseries</category><category>correlation</category></item></channel></rss>
