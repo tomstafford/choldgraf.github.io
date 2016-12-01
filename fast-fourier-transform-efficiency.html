@@ -1077,7 +1077,7 @@ h6:hover .anchor-link {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [22]:</div>
+<div class="prompt input_prompt">In [ ]:</div>
 <div class="inner_cell">
 <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># We can use the `time` and the `numpy` module to time how long it takes to do an FFT</span>
@@ -1096,16 +1096,6 @@ h6:hover .anchor-link {
 </div>
 </div>
 </div>
-<div class="output_wrapper">
-<div class="output">
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>It takes 0.00273609161377 seconds to do the FFT
-</pre>
-</div>
-</div>
-</div>
-</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -1118,7 +1108,7 @@ h6:hover .anchor-link {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [23]:</div>
+<div class="prompt input_prompt">In [ ]:</div>
 <div class="inner_cell">
 <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># We'll test out how long the FFT takes for a few lengths</span>
@@ -1130,7 +1120,7 @@ h6:hover .anchor-link {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [24]:</div>
+<div class="prompt input_prompt">In [ ]:</div>
 <div class="inner_cell">
 <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Let's try a few slightly longer signals</span>
@@ -1146,20 +1136,6 @@ h6:hover .anchor-link {
     <span class="k">print</span><span class="p">(</span><span class="s1">'With data of length {} ({} factors), it takes {} seconds to do the FFT'</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
             <span class="n">i_length</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">factors</span><span class="p">),</span> <span class="n">stop</span><span class="o">-</span><span class="n">start</span><span class="p">))</span>
 </pre></div>
-</div>
-</div>
-</div>
-<div class="output_wrapper">
-<div class="output">
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>With data of length 11 (2 factors), it takes 6.50882720947e-05 seconds to do the FFT
-With data of length 101 (2 factors), it takes 0.000107049942017 seconds to do the FFT
-With data of length 1009 (1 factors), it takes 0.00257182121277 seconds to do the FFT
-With data of length 10009 (1 factors), it takes 0.391358852386 seconds to do the FFT
-With data of length 100019 (1 factors), it takes 43.7790000439 seconds to do the FFT
-</pre>
-</div>
 </div>
 </div>
 </div>
@@ -1189,7 +1165,7 @@ With data of length 100019 (1 factors), it takes 43.7790000439 seconds to do the
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [25]:</div>
+<div class="prompt input_prompt">In [ ]:</div>
 <div class="inner_cell">
 <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
@@ -1212,7 +1188,7 @@ With data of length 100019 (1 factors), it takes 43.7790000439 seconds to do the
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [26]:</div>
+<div class="prompt input_prompt">In [ ]:</div>
 <div class="inner_cell">
 <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Let's read in the data and see how it looks</span>
@@ -1228,7 +1204,7 @@ With data of length 100019 (1 factors), it takes 43.7790000439 seconds to do the
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [27]:</div>
+<div class="prompt input_prompt">In [ ]:</div>
 <div class="inner_cell">
 <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># First off, it's clear that computation time grows nonlinearly with signal length</span>
@@ -1239,10 +1215,7 @@ With data of length 100019 (1 factors), it takes 43.7790000439 seconds to do the
 </div>
 <div class="output_wrapper">
 <div class="output">
-<div class="output_area"><div class="prompt output_prompt">Out[27]:</div>
-<div class="output_text output_subarea output_execute_result">
-<pre><matplotlib.axes._subplots.axessubplot at 0x1172ad050></pre>
-</div>
+<div class="output_area"><div class="prompt output_prompt">Out[ ]:</div>
 </div>
 <div class="output_area"><div class="prompt"></div>
 <div class="output_png output_subarea ">
@@ -1427,7 +1400,7 @@ GMokSZIywFAmSZKUAf8fme7NHvY2KrIAAAAASUVORK5CYII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [28]:</div>
+<div class="prompt input_prompt">In [ ]:</div>
 <div class="inner_cell">
 <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># However, upon closer inspection, it's clear that there's much variability</span>
@@ -1441,10 +1414,7 @@ GMokSZIywFAmSZKUAf8fme7NHvY2KrIAAAAASUVORK5CYII=
 </div>
 <div class="output_wrapper">
 <div class="output">
-<div class="output_area"><div class="prompt output_prompt">Out[28]:</div>
-<div class="output_text output_subarea output_execute_result">
-<pre><matplotlib.axes._subplots.axessubplot at 0x116e91450></pre>
-</div>
+<div class="output_area"><div class="prompt output_prompt">Out[ ]:</div>
 </div>
 <div class="output_area"><div class="prompt"></div>
 <div class="output_png output_subarea ">
@@ -2202,7 +2172,7 @@ iRoHBwcHBwcHx1GK/we7AqeKX26m6gAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [29]:</div>
+<div class="prompt input_prompt">In [ ]:</div>
 <div class="inner_cell">
 <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># We'll use a regression model to try and fit how length predicts time</span>
@@ -2217,7 +2187,7 @@ iRoHBwcHBwcHx1GK/we7AqeKX26m6gAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [30]:</div>
+<div class="prompt input_prompt">In [ ]:</div>
 <div class="inner_cell">
 <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Now fit to our data, and calculate the error for each datapoint</span>
@@ -2231,7 +2201,7 @@ iRoHBwcHBwcHx1GK/we7AqeKX26m6gAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [31]:</div>
+<div class="prompt input_prompt">In [ ]:</div>
 <div class="inner_cell">
 <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># As the length grows, the trends in the data begin to diverge more and more</span>
@@ -2245,10 +2215,7 @@ iRoHBwcHBwcHx1GK/we7AqeKX26m6gAAAABJRU5ErkJggg==
 </div>
 <div class="output_wrapper">
 <div class="output">
-<div class="output_area"><div class="prompt output_prompt">Out[31]:</div>
-<div class="output_text output_subarea output_execute_result">
-<pre><matplotlib.text.text at 0x11754b210></pre>
-</div>
+<div class="output_area"><div class="prompt output_prompt">Out[ ]:</div>
 </div>
 <div class="output_area"><div class="prompt"></div>
 <div class="output_png output_subarea ">
@@ -2974,7 +2941,7 @@ EARBuMSJgE4QBEEQBOESJwI6QRAEQRCES9z/Bvc96XdxSwplAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [32]:</div>
+<div class="prompt input_prompt">In [ ]:</div>
 <div class="inner_cell">
 <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># We'll write a helper function that shows how many (<100) factors each length has</span>
@@ -2991,7 +2958,7 @@ EARBuMSJgE4QBEEQBOESJwI6QRAEQRCES9z/Bvc96XdxSwplAAAAAElFTkSuQmCC
 </div>
 <div class="output_wrapper">
 <div class="output">
-<div class="output_area"><div class="prompt output_prompt">Out[32]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[ ]:</div>
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
 <table border="1" class="dataframe">
@@ -3065,7 +3032,7 @@ EARBuMSJgE4QBEEQBOESJwI6QRAEQRCES9z/Bvc96XdxSwplAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [33]:</div>
+<div class="prompt input_prompt">In [ ]:</div>
 <div class="inner_cell">
 <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># As we can see, the FFT time drops quickly as a function of the number of factors</span>
@@ -3079,10 +3046,7 @@ EARBuMSJgE4QBEEQBOESJwI6QRAEQRCES9z/Bvc96XdxSwplAAAAAElFTkSuQmCC
 </div>
 <div class="output_wrapper">
 <div class="output">
-<div class="output_area"><div class="prompt output_prompt">Out[33]:</div>
-<div class="output_text output_subarea output_execute_result">
-<pre><matplotlib.text.text at 0x11bb505d0></pre>
-</div>
+<div class="output_area"><div class="prompt output_prompt">Out[ ]:</div>
 </div>
 <div class="output_area"><div class="prompt"></div>
 <div class="output_png output_subarea ">
@@ -3364,7 +3328,7 @@ iIhIRfx/PvKU0PMokMYAAAAASUVORK5CYII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [34]:</div>
+<div class="prompt input_prompt">In [ ]:</div>
 <div class="inner_cell">
 <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># We'll plot two zoom levels to see the detail</span>
