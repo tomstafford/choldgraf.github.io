@@ -15,7 +15,7 @@ div.text_cell_render a.btn {
 
 /* Center images */
 .output_png, .output_png img {
-    width: 50%;
+    width: 80%;
     margin: 0 auto; 
 }
 
