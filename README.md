@@ -1,0 +1,2 @@
+# Predictably Noisy
+Here is where I'm keeping the raw files used for pushing content to my website. You should check out the master branch if you'd like to see interactive notebooks etc, as it's the more public-facing part of this repo.
