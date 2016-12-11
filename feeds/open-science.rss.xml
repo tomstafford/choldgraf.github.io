@@ -976,8 +976,7 @@ h6:hover .anchor-link {
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;blockquote&gt;&lt;p&gt;&lt;em&gt;This article is now interactive! Check out a live Binder instance &lt;a href="http://mybinder.org/repo/choldgraf/choldgraf.github.io"&gt;here&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;This article is now interactive! Check out a live Binder instance &lt;a href="http://mybinder.org/repo/choldgraf/choldgraf.github.io/notebooks/notebooks/2016_11_30-funnel_plots.ipynb"&gt;here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;In the next few months, I'll try to take some time to talk about the things I learn as I make my way through this literature. While it's easy to make one-off complaints to one another about how "science is broken" without really diving into the details, it's important learn about &lt;em&gt;how&lt;/em&gt; it's broken, or at least how we could assess something like this.&lt;/p&gt;
 &lt;p&gt;Fortunately, there are a lot of great researchers out there who are studying these very issues. Whether they dedicate all of their research to these "meta science" topics, or simply treat this as a part of their scientific duty on top of their domain-specific work, their work represents a crucial step in reforming our scientific culture.&lt;/p&gt;
 &lt;p&gt;I'm not really dredging up anything new here. People have spoken at length about scientific principles and how to improve them for quite a long time. However, I've found that these insights often come buried within relatively dense papers that are themselves hidden behind subscription journal paywalls. This is an attempt to make these thoughts a little more digestible, discoverable, and useful.&lt;/p&gt;
