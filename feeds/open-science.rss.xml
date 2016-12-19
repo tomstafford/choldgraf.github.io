@@ -999,17 +999,6 @@ h6:hover .anchor-link {
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="output_wrapper"&gt;
-&lt;div class="output"&gt;
-&lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div class="output_subarea output_stream output_stderr output_text"&gt;
-&lt;pre&gt;/Users/choldgraf/anaconda/lib/python2.7/site-packages/matplotlib/__init__.py:878: UserWarning: axes.color_cycle is deprecated and replaced with axes.prop_cycle; please use the latter.
-  warnings.warn(self.msg_depr % (key, alt_key))
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;
 &lt;div class="prompt input_prompt"&gt;
@@ -1032,7 +1021,7 @@ h6:hover .anchor-link {
 &lt;span class="n"&gt;url&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;"http://biorxiv.org/search/neuroscience%20numresults%3A{}"&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
     &lt;span class="n"&gt;n_results&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="n"&gt;resp&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;requests&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;post&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;url&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;bs&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;resp&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;text&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;prettify&lt;/span&gt;&lt;span class="p"&gt;()[:&lt;/span&gt;&lt;span class="mi"&gt;1000&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;bs&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;resp&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;text&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;prettify&lt;/span&gt;&lt;span class="p"&gt;()[&lt;/span&gt;&lt;span class="mi"&gt;1000&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;2000&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1041,26 +1030,23 @@ h6:hover .anchor-link {
 &lt;div class="output"&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_stream output_stdout output_text"&gt;
-&lt;pre&gt;
-&lt;html dir="ltr" lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:mml="http://www.w3.org/1998/Math/MathML"&gt;
- &lt;head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book#"&gt;
-  &lt;!--[if IE]&gt;&lt;![endif]--&gt;
-  &lt;meta content="text/html; charset=utf-8" http-equiv="Content-Type" /&gt;
-  &lt;link href="//stats.g.doubleclick.net" rel="dns-prefetch" /&gt;
-  &lt;link href="//d2538ggaoe6cji.cloudfront.net" rel="dns-prefetch" /&gt;
-  &lt;link href="//d33xdlntwy0kbs.cloudfront.net" rel="dns-prefetch" /&gt;
-  &lt;link href="//www.google-analytics.com" rel="dns-prefetch" /&gt;
-  &lt;meta content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=yes" name="viewport" /&gt;
-  &lt;meta content="on" http-equiv="x-dns-prefetch-control" /&gt;
-  &lt;link href="http://d2538ggaoe6cji.cloudfront.net/sites/default/files/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" /&gt;
-  &lt;link href="//d2538ggaoe6cji.cloudfront.net" rel="dns-prefetch" /&gt;
-  &lt;meta conten &amp;lt; pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;pre&gt;t="bioRxiv - the preprint server for biology, operated by Cold Spring Harbor Laboratory, a research and educational institution" name="description"/&gt;
+  &lt;meta content="Drupal 7 (http://drupal.org)" name="generator" /&gt;
+  &lt;link href="http://biorxiv.org/search/neuroscience%20numresults%3A20" rel="canonical" /&gt;
+  &lt;link href="http://biorxiv.org/search/neuroscience%20numresults%3A20" rel="shortlink" /&gt;
+  &lt;title&gt;
+   Search Results | bioRxiv
+  
+  &lt;link href="//d2538ggaoe6cji.cloudfront.net/sites/default/files/advagg_css/css__q1jfIfL8-NmYQwIYZiQJkXRvxUhw39T6nMKFZH7cllk__6eR-HG068hreGXGvZigV_cQG10gMcVih32c6FYJBqbE__imDsSigmr4ogdph8y05tUqzxEHqiUnb444emrb0Pw38.css" media="all" rel="stylesheet" type="text/css" /&gt;
+  &lt;link href="//d2538ggaoe6cji.cloudfront.net/sites/all/modules/highwire/highwire/highwire.style.highwire.css?oiawv1" media="all" rel="stylesheet" type="text/css" /&gt;
+  &lt;link href="//d2538ggaoe6cji.cloudfront.net/sites/default/files/advagg_css/css___7puxq86njkrT1zq0A3dPfm7ASdBh4KDGtCeOzcM
+&amp;lt;/pre&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;div class=" cell border-box-sizing text_cell rendered&amp;quot;&gt;
 &lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
