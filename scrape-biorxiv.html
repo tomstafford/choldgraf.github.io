@@ -1111,17 +1111,8 @@ h6:hover .anchor-link {
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">n_results</span> <span class="o">=</span> <span class="mi">20</span>
 <span class="n">url</span> <span class="o">=</span> <span class="s2">"http://biorxiv.org/search/neuroscience%20numresults%3A{}"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">n_results</span><span class="p">)</span>
 <span class="n">resp</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
-<span class="n">resp</span><span class="o">.</span><span class="n">text</span><span class="p">[:</span><span class="mi">400</span><span class="p">]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">resp</span><span class="o">.</span><span class="n">text</span><span class="p">[:</span><span class="mi">400</span><span class="p">])</span>
 </pre></div>
-</div>
-</div>
-</div>
-<div class="output_wrapper">
-<div class="output">
-<div class="output_area"><div class="prompt output_prompt">Out[ ]:</div>
-<div class="output_text output_subarea output_execute_result">
-<pre>u'\n<html lang="en" dir="ltr" \n xmlns="http://www.w3.org/1999/xhtml" \n xmlns:mml="http://www.w3.org/1998/Math/MathML">\n  <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book#">\n    <!--[if IE]><![endif]-->\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />\n<link rel="dns-prefetch" href="//stats.g.doubleclick.net" />\n<li&#x27;&lt; pre>
-</div>
 </div>
 </div>
 </div>
@@ -1131,7 +1122,7 @@ h6:hover .anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Looks like gibberish, so we'll use beautiful soup to clean it up:</p>
+<p>There's a lot of stuff in there to parse, so we'll use beautiful soup to clean it up and get to the meat of the data in the page:</p>
 </div>
 </div>
 </div>
