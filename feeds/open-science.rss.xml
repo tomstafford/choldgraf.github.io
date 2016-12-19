@@ -1021,7 +1021,10 @@ h6:hover .anchor-link {
 &lt;span class="n"&gt;url&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;"http://biorxiv.org/search/neuroscience%20numresults%3A{}"&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
     &lt;span class="n"&gt;n_results&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="n"&gt;resp&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;requests&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;post&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;url&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;bs&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;resp&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;text&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;prettify&lt;/span&gt;&lt;span class="p"&gt;()[&lt;/span&gt;&lt;span class="mi"&gt;1000&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;2000&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+&lt;span class="n"&gt;text&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;bs&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;resp&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;text&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;prettify&lt;/span&gt;&lt;span class="p"&gt;()[&lt;/span&gt;&lt;span class="mi"&gt;1000&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;2000&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="n"&gt;text&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;text&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="mi"&gt;80&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;text&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="mi"&gt;80&lt;/span&gt;&lt;span class="p"&gt;)]&lt;/span&gt;
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;text&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;line&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1030,16 +1033,25 @@ h6:hover .anchor-link {
 &lt;div class="output"&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_stream output_stdout output_text"&gt;
-&lt;pre&gt;t="bioRxiv - the preprint server for biology, operated by Cold Spring Harbor Laboratory, a research and educational institution" name="description"/&gt;
-  &lt;meta content="Drupal 7 (http://drupal.org)" name="generator" /&gt;
-  &lt;link href="http://biorxiv.org/search/neuroscience%20numresults%3A20" rel="canonical" /&gt;
-  &lt;link href="http://biorxiv.org/search/neuroscience%20numresults%3A20" rel="shortlink" /&gt;
-  &lt;title&gt;
+&lt;pre&gt;t="bioRxiv - the preprint server for biology, operated by Cold Spring Harbor Lab
+oratory, a research and educational institution" name="description"/&gt;
+  &lt;meta co ntent="Drupal 7 (http://drupal.org)" name="generator" /&gt;
+  &lt;link href="http://bio
+rxiv.org/search/neuroscience%20numresults%3A20" rel="canonical" /&gt;
+  &lt;link href="
+http://biorxiv.org/search/neuroscience%20numresults%3A20" rel="shortlink" /&gt;
+  &lt;t itle&gt;
    Search Results | bioRxiv
   
-  &lt;link href="//d2538ggaoe6cji.cloudfront.net/sites/default/files/advagg_css/css__q1jfIfL8-NmYQwIYZiQJkXRvxUhw39T6nMKFZH7cllk__6eR-HG068hreGXGvZigV_cQG10gMcVih32c6FYJBqbE__imDsSigmr4ogdph8y05tUqzxEHqiUnb444emrb0Pw38.css" media="all" rel="stylesheet" type="text/css" /&gt;
-  &lt;link href="//d2538ggaoe6cji.cloudfront.net/sites/all/modules/highwire/highwire/highwire.style.highwire.css?oiawv1" media="all" rel="stylesheet" type="text/css" /&gt;
-  &lt;link href="//d2538ggaoe6cji.cloudfront.net/sites/default/files/advagg_css/css___7puxq86njkrT1zq0A3dPfm7ASdBh4KDGtCeOzcM
+  &lt;link href="//d2538ggaoe6cji.clou
+dfront.net/sites/default/files/advagg_css/css__q1jfIfL8-NmYQwIYZiQJkXRvxUhw39T6n
+MKFZH7cllk__6eR-HG068hreGXGvZigV_cQG10gMcVih32c6FYJBqbE__imDsSigmr4ogdph8y05tUqz
+xEHqiUnb444emrb0Pw38.css" media="all" rel="stylesheet" type="text/css" /&gt;
+  &lt;link href="//d2538ggaoe6cji.cloudfront.net/sites/all/modules/highwire/highwire/highw
+ire.style.highwire.css?oiawv1" media="all" rel="stylesheet" type="text/css" /&gt;
+  
+&lt;link href="//d2538ggaoe6cji.cloudfront.net/sites/default/files/advagg_css/css__
+_7puxq86njkrT1zq0A3dPfm7ASdBh4KDGtCeOzcM
 &amp;lt;/pre&amp;gt;
 &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;

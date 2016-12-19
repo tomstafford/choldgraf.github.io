@@ -1112,7 +1112,10 @@ h6:hover .anchor-link {
 <span class="n">url</span> <span class="o">=</span> <span class="s2">"http://biorxiv.org/search/neuroscience%20numresults%3A{}"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
     <span class="n">n_results</span><span class="p">)</span>
 <span class="n">resp</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">bs</span><span class="p">(</span><span class="n">resp</span><span class="o">.</span><span class="n">text</span><span class="p">)</span><span class="o">.</span><span class="n">prettify</span><span class="p">()[</span><span class="mi">1000</span><span class="p">:</span><span class="mi">2000</span><span class="p">])</span>
+<span class="n">text</span> <span class="o">=</span> <span class="n">bs</span><span class="p">(</span><span class="n">resp</span><span class="o">.</span><span class="n">text</span><span class="p">)</span><span class="o">.</span><span class="n">prettify</span><span class="p">()[</span><span class="mi">1000</span><span class="p">:</span><span class="mi">2000</span><span class="p">]</span>
+<span class="n">text</span> <span class="o">=</span> <span class="p">[</span><span class="n">text</span><span class="p">[</span><span class="n">i</span><span class="p">:</span><span class="n">i</span><span class="o">+</span><span class="mi">80</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">text</span><span class="p">),</span> <span class="mi">80</span><span class="p">)]</span>
+<span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">text</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1121,16 +1124,25 @@ h6:hover .anchor-link {
 <div class="output">
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>t="bioRxiv - the preprint server for biology, operated by Cold Spring Harbor Laboratory, a research and educational institution" name="description"/>
-  <meta content="Drupal 7 (http://drupal.org)" name="generator" />
-  <link href="http://biorxiv.org/search/neuroscience%20numresults%3A20" rel="canonical" />
-  <link href="http://biorxiv.org/search/neuroscience%20numresults%3A20" rel="shortlink" />
-  <title>
+<pre>t="bioRxiv - the preprint server for biology, operated by Cold Spring Harbor Lab
+oratory, a research and educational institution" name="description"/>
+  <meta co ntent="Drupal 7 (http://drupal.org)" name="generator" />
+  <link href="http://bio
+rxiv.org/search/neuroscience%20numresults%3A20" rel="canonical" />
+  <link href="
+http://biorxiv.org/search/neuroscience%20numresults%3A20" rel="shortlink" />
+  <t itle>
    Search Results | bioRxiv
   
-  <link href="//d2538ggaoe6cji.cloudfront.net/sites/default/files/advagg_css/css__q1jfIfL8-NmYQwIYZiQJkXRvxUhw39T6nMKFZH7cllk__6eR-HG068hreGXGvZigV_cQG10gMcVih32c6FYJBqbE__imDsSigmr4ogdph8y05tUqzxEHqiUnb444emrb0Pw38.css" media="all" rel="stylesheet" type="text/css" />
-  <link href="//d2538ggaoe6cji.cloudfront.net/sites/all/modules/highwire/highwire/highwire.style.highwire.css?oiawv1" media="all" rel="stylesheet" type="text/css" />
-  <link href="//d2538ggaoe6cji.cloudfront.net/sites/default/files/advagg_css/css___7puxq86njkrT1zq0A3dPfm7ASdBh4KDGtCeOzcM
+  <link href="//d2538ggaoe6cji.clou
+dfront.net/sites/default/files/advagg_css/css__q1jfIfL8-NmYQwIYZiQJkXRvxUhw39T6n
+MKFZH7cllk__6eR-HG068hreGXGvZigV_cQG10gMcVih32c6FYJBqbE__imDsSigmr4ogdph8y05tUqz
+xEHqiUnb444emrb0Pw38.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="//d2538ggaoe6cji.cloudfront.net/sites/all/modules/highwire/highwire/highw
+ire.style.highwire.css?oiawv1" media="all" rel="stylesheet" type="text/css" />
+  
+<link href="//d2538ggaoe6cji.cloudfront.net/sites/default/files/advagg_css/css__
+_7puxq86njkrT1zq0A3dPfm7ASdBh4KDGtCeOzcM
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
